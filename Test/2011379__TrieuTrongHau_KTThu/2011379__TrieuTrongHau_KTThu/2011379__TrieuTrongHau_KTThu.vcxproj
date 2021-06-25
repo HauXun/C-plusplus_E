@@ -11,21 +11,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0EF4FFC6-9D1E-4252-B621-D841642FC0A7}</ProjectGuid>
+    <ProjectGuid>{5702DDC3-BF9C-4FCB-9781-68E8A4DE93E9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Bai01</RootNamespace>
+    <RootNamespace>My2011379__TrieuTrongHau_KTThu</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -81,11 +81,8 @@
     <ClCompile Include="program.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="menu.h" />
-    <ClInclude Include="thuvien.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="nhanvien.txt" />
+    <ClInclude Include="2011379_menu.h" />
+    <ClInclude Include="2011379_thuvien.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
